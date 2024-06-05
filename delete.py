@@ -1,4 +1,4 @@
-#we use del keyword to delete objects or objects properties
+#we use del keyword to delete objects or object properties
 # del object (to delete object)
 # del object.property (to delete object property)
 class student:

@@ -1,4 +1,3 @@
-
 class school:
     cname = "Chittagong International Medical & Dental College"
 
@@ -17,9 +16,16 @@ class student(school):
         self.level = level
         self.roll = roll
 
-
 s1 = student(13,11)
+
+class parents(student):
+
+    def __init__(self,father,mother):
+        self.father = father
+        self.mother = mother
+
+s1 = parents("Mohammad Absar","Zinnat Begum")
 print(s1.cname)
 print(s1.type2())
-print(s1.sname,'\n', s1.level, '\n', s1.roll)
-
+print(s1.sname)
+print(s1.father,'\n',s1.mother)
